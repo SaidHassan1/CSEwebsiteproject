@@ -1,52 +1,79 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pampered Paws Pet Grooming</title>
-  <style>
-    //
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Pampered Paws Pet Grooming</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"> All our pages <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="index.html">Home</a></li>
+           <li><a href="Services.html">Services</a></li>
+           <li><a href="about.html">About Us</a></li>
+           <li><a href="bookingform.html">Booking</a></li>
+          </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="bookingform.html"><span class="glyphicon glyphicon-user"></span> Booking Form</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+
   </style>
 </head>
 <body>
   <header>
     <h1>Pampered Paws Pet Grooming</h1>
-    <p>Spoil your furry friend with our expert grooming services.</p>
+    <p>Making your furry friend look and feel their best!</p>
   </header>
 
 
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Services.html">Services</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="bookingform.html">Booking</a></li>
+    </ul>
+  </nav>
+
   <main>
     <section>
-      <h2>About Us</h2>
-      <p>We are a team of passionate and experienced pet groomers dedicated to providing your furry companion with a safe, comfortable, and positive grooming experience. We use only high-quality products and gentle techniques to ensure their well-being and happiness.</p>
+      <h2>Welcome to Pampered Paws Pet Grooming!</h2>
+      <p>We are a passionate team of experienced pet groomers dedicated to providing your furry companion with a safe and comfortable grooming experience. We offer a variety of services to meet your pet's individual needs, from basic baths and haircuts to full-body spa treatments.</p>
+      <p><b><cite>A clean pet is a happy pet!</cite></b></p>
     </section>
 
     <section>
-      <h2>Services</h2>
-      <p>We offer a wide range of grooming services to meet the needs of all breeds and coat types. Here are some of our most popular services:</p>
-      <ul>
-        <li>Bath and brush</li>
-        <li>Haircut and style</li>
-        <li>Nail trimming</li>
-        <li>Ear cleaning</li>
-        <li>Flea and tick treatment (optional)</li>
-      </ul>
+      <h3>Happy Clients, Happy Pets!</h3>
       <img src="https://www.purina.co.nz/sites/default/files/styles/ttt_image_510/public/2020-12/Grooming%20Your%20Puppy%20-%20All%20Your%20Questions%20Answered3.jpg?itok=bWZJK70u">
+      <p>Don't just take our word for it, see what our satisfied clients have to say!</p>
+      <blockquote>
+        "My dog used to hate going to the groomer, but now he loves coming to Pawsome Pets! They are so gentle and caring, and he always looks amazing afterwards." - Sarah Jones
+      </blockquote>
     </section>
 
     <section>
-      <h2>Pricing</h2>
-      <p>Our pricing varies depending on the size of your pet, the type of services requested, and the condition of their coat. Please contact us for a quote.</p>
-    </section>
-
-    <section>
-      <h2>Book an Appointment</h2>
-      <p>Call us at (555) 555-5555 or fill out our online booking form to schedule an appointment for your pet.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2024 Pampered Paws Pet Grooming. All rights reserved.</p>
-  </footer>
-</body>
+      <h2>Ready to Pamper Your Pet?</h2>
+      <button class="button" onclick="alert('Book your appointment today!')">Book Now</button>
+      
